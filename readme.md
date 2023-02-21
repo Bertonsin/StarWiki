@@ -31,5 +31,5 @@ Caso queira contribuir com algo, pull requests são bem vindos.
 ## Extra
 
 No momento a aplicação ainda possui alguns problemas devido a dificuldades
-encontradas durante o desenvolvimento. Espero conseguir poli-la ao longo do
+encontradas durante o desenvolvimento, além de algumas funcionalidade ainda não estarem prontas. Espero conseguir poli-la ao longo do
 tempo.
