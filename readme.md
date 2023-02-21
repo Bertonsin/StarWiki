@@ -1,6 +1,6 @@
 # Overview
 
-<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7b3deb32212593.5673bfaabefb9.png " alt= “” width="value" height="value" style="height: 400px; width:550px;">
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7b3deb32212593.5673bfaabefb9.png" alt= “” width="value" height="value" style="height: 400px; width:550px;">
 
 StarWiki é uma aplicação a qual busca os dados providos na SWAPI(star wars Api) e os exibe em tela,
 provendo informações a respeito da série de filmes star wars.
