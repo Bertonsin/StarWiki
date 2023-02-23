@@ -71,7 +71,7 @@ export function StarShipsPage() {
             dataFetched={dataFetched}
             dataFiltered={dataFiltered}
             isLoading={isLoading}
-            typeOfData={"people/"}
+            category={"starships"}
           />
         </Box>
       </Box>

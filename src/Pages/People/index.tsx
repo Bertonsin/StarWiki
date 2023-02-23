@@ -1,14 +1,5 @@
-import {
-  Box,
-  Checkbox,
-  Input,
-  Select,
-  SelectField,
-  Stack,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Input, SelectField, Stack } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import { Filter } from "../../Components/Filter";
 import { Header } from "../../Components/Header";
 import { List } from "../../Components/List";
 import { useFetch } from "../../Hooks/useFetch";
@@ -92,7 +83,7 @@ export function People() {
             dataFetched={dataFetched}
             dataFiltered={dataFiltered}
             isLoading={isLoading}
-            typeOfData={"people"}
+            category={"people"}
           />
         </Box>
       </Box>

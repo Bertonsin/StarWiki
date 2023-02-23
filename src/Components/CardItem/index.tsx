@@ -2,23 +2,9 @@ import { Card, Text, CardBody, Stack, Heading, Box } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { CardItemProps } from "./Dto/CardItemTypes";
 
-export function CardItem({
-  title,
-  gender,
-  especie,
-  to,
-  typeOfData,
-}: CardItemProps) {
-  let url;
-
-  if (typeOfData == "people") {
-    url = `${typeOfData}${to}`;
-  } else {
-    url = `${to}`;
-  }
-
+export function CardItem({ title, gender, especie, to }: CardItemProps) {
   return (
-    <Link to={`${typeOfData}${to}`}>
+    <Link to={`info${to}`}>
       <Card
         bg={"#FFF"}
         maxW={"md"}

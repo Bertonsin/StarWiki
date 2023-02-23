@@ -4,5 +4,5 @@ export interface ListProps {
   dataFetched: any;
   dataFiltered?: searchProps[];
   isLoading?: boolean;
-  typeOfData: string;
+  category: string;
 }

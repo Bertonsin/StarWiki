@@ -11,11 +11,13 @@ export function RoutesApp() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/people" element={<People />} />
-        <Route path="/planets" element={<PlanetsPage />} />
-        <Route path="/films" element={<FilmsPage />} />
-        <Route path="/starships" element={<StarShipsPage />} />
-        <Route path="/:itemId/:id" element={<ItemPage />} />
+        <Route path="people" element={<People />}>
+          <Route path=":id" element={<ItemPage />} />
+        </Route>
+        <Route path="planets" element={<PlanetsPage />} />
+        <Route path="films" element={<FilmsPage />} />
+        <Route path="starships" element={<StarShipsPage />} />
+        <Route path=":category/info/:id" element={<ItemPage />} />
       </Routes>
     </Router>
   );

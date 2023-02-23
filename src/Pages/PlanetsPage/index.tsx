@@ -71,7 +71,7 @@ export function PlanetsPage() {
             dataFetched={dataFetched}
             dataFiltered={dataFiltered}
             isLoading={isLoading}
-            typeOfData={"planets"}
+            category={"planets"}
           />
         </Box>
       </Box>

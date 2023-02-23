@@ -37,7 +37,7 @@ export function FilmsPage() {
             dataFetched={dataFetched}
             dataFiltered={dataFiltered}
             isLoading={isLoading}
-            typeOfData={"people/"}
+            category={"films"}
           />
         </Box>
       </Box>

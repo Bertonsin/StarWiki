@@ -3,5 +3,4 @@ export interface CardItemProps {
   gender?: string;
   especie?: string;
   to: string;
-  typeOfData: string;
 }
